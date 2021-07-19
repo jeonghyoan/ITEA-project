@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+{% include 'head.html' %}
+
+<body style="font-family: 'Noto sans';">
+
+    {% include 'header.html' %}
+    <hr>
+    {% include 'messages.html' %}
+    {% block content %}
+    {% endblock %}
+
+    <hr>
+
+    {% include 'footer.html' %}
+
+    {% block script %}
+    {% endblock %}
+</body>
+</html>
