@@ -1,0 +1,26 @@
+body {
+  font-family: "NanumSquare", "Nanum Gothic", "MalgunGothic", "Dotum", "Gulim",
+    "Arial", sans-serif;
+}
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+tr,
+span,
+li,
+div,
+input,
+textarea,
+select,
+caption,
+table th,
+table td {
+  font-family: "NanumSquare", "Nanum Gothic", "MalgunGothic", "Dotum", "Gulim",
+    "Arial", sans-serif;
+  transform: skew(-0.03deg);
+}
