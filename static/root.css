@@ -1,0 +1,33 @@
+:root {
+  /* Color */
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --blue-main-color: #239aff;
+  --blue-sub-color: #01a1ff;
+  --yellow-color: #fff839;
+  --gray-dark-color: #4c4f53;
+  --gray-light-color: #b7b7b7;
+  /* Size */
+
+  /* Font Size */
+  --font-large: 80px;
+  --font-medium: 50px;
+  --font-small: 20px;
+  --font-micro: 13px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: transparent; /* 버튼 배경색 투명하게 */
+}

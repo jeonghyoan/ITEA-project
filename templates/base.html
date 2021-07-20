@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-{% include 'head.html' %}
+<!-- {% include 'head.html' %} -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청설모</title>
+    <script src="includeHTML.js"></script>
+    <link rel="stylesheet" href="/static/includeCSS.css">
+</head>
 
 <body style="font-family: 'Noto sans';">
-
-    {% include 'header.html' %}
-    <hr>
-    {% include 'messages.html' %}
+    <!-- {% include 'header.html' %} -->
+    <header include-html="header.html"></header>
+    <!-- <hr> -->
+    <!-- {% include 'messages.html' %}
     {% block content %}
-    {% endblock %}
+    {% endblock %} -->
 
-    <hr>
+    <!-- <hr> -->
 
-    {% include 'footer.html' %}
+    <!-- {% include 'footer.html' %} -->
+    <footer include-html="footer.html"></footer>
 
-    {% block script %}
-    {% endblock %}
+    <!-- {% block script %}
+    {% endblock %} -->
 </body>
+<script>
+    includeHTML();
+</script>
 </html>
