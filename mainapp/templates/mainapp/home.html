@@ -1,9 +1,102 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="ko">
 
-{% block content %}
-    {% block extra-style %}
-        <title>청설모-홈</title>
-    {% endblock %}
+<head>
+    <meta charset="UTF-8">
+    <title>청설모-홈</title>
+    <script src="/static/js/includeHTML.js"></script> <!-- js 파일 연결-->
+    <link rel="stylesheet" href="/static/css/includeCSS.css"> <!-- css 파일 연결-->
+</head>
 
-<!--내용은 여기에 코드 작성-->
-{% endblock %}
+<body>
+    <header include-html="/templates/header.html"></header> <!-- 헤더 부분 -->
+    
+    <section class="first_section">
+        <div class="infos">
+            <p class="title">빠르게<br> 진행해야 할<br> <span>설문조사</span>가 있나요?</p>
+            <p class="moreinfo">지금 바로 청설모에 가입 후, 프로필을 업데이트 해보세요.</p><br>
+            <p class="moreinfo">당신에게 꼭 맞는 설문조사를 찾아드립니다.</p>
+            <button class="start_button">시작하기</button>
+        </div>
+        <div class="logo">
+            <p class="logeimage"></p>
+        </div>
+    </section>
+
+    <section class="second_section"> 
+        <p class="logo"></p>
+        <p class="info">청설모는 <span>'청년들을 위한 설문조사 모임'</span>의 줄임말로<br>설문조사로 고통받는 청년들을 위한 서비스 입니다.</p>
+    </section>
+
+    <section class="third_section">
+        <div class="title">
+            <p class="title">청설모 이용 방법이 궁금해요!</p>
+            <p class="moreinfo">다음의 3단계만 따라하면 쉽게 이용가능해요.</p>
+        </div>
+        <div class="order">
+            <div class="first">
+                <div class="image">이미지</div>
+            <div class="ordering">STEP 1</div>
+            <div class="title">회원가입 / 로그인</div>
+            <div class="moreinfo">청설모에 회원가입 후 로그인 합니다.<br>회원가입시 관심사를 선택하면<br>더 많은 추천 설문을 만날 수 있어요.</div>
+            </div>
+            <div class="second">
+                <div class="image">이미지</div>
+                <div class="ordering">STEP 2</div>
+                <div class="title">설문조사 진행</div>
+                <div class="moreinfo">설문조사를 진행할 때마다 추천설문은 30포인트,<br>일반설문은 10포인트가 지급됩니다.</div>
+            </div>
+            <div class="first">
+                <div class="image">이미지</div>
+                <div class="ordering">STEP 3</div>
+                <div class="title">설문조사 등록</div>
+                <div class="moreinfo">포인트를 이용하여 설문조사를 등록할 수 있습니다.<br>리워드 적립시 설문조사 등록뿐만 아니라<br>기프티콘 구매도 가능합니다.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth_section">
+        <div class="title">
+            <p class="title">설문조사 등록 후 조회까지 한번에!</p>
+            <p class="moreinfo">궁금한 것이 있나요? 지금 바로 원하는 설문조사를 실시하세요.</p>
+        </div>
+        <div class="infos">
+            <div class="register">
+                <div class="image">이미지</div>
+                <div class="info">
+                    <div class="info_title">설문조사 등록</div>
+                    <div class="moreinfo">설문응답 후 적립된 포인트를 이용하여<br>설문조사를 등록 하실 수 있습니다.</div>
+                </div>
+            </div>
+            <div class="search">
+                <div class="image">이미지</div>
+                <div class="info">
+                    <div class="info_title">설문조사 조회</div>
+                    <div class="moreinfo">등록된 설문조사를 조회하실 수 있습니다.<br>매일 새로운 추천 설문을 만나보세요.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fifth_section">
+        <div class="img">
+            <div class="image">image</div>
+        </div>
+        <div class="info">
+            <p class="title_info">포인트 적립은 덤!</p>
+            <p class="subtitle_info">포인트 적립</p>
+            <p class="moreinfo">추천설문(30p)과 일반설문(10p)을 응답하여 포인트를 모을 수 있고, <br> 포인트를 이용해 설문 등록 혹은 기프티콘을 구매하실 수 있습니다.</p>
+        </div>
+    </section>
+    
+    <section class="sixth_section">
+        <p class="title">그럼 함께 시작해 볼까요?</p>
+        <button class="start_button">시작하기</button>
+    </section>
+
+    <footer include-html="/templates/footer.html"></footer> <!-- 푸터 부분 -->
+</body>
+<script>
+    includeHTML(); // 템플릿 불러오는 함수
+</script>
+</html>
