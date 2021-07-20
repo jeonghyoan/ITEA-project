@@ -1,0 +1,43 @@
+@import url(/static/root.css);
+
+header {
+  display: flex;
+  width: 100%;
+  height: 140px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 0 70px;
+  background-color: var(--blue-sub-color);
+}
+header button {
+  font-size: var(--font-small);
+}
+/* header .logo {
+} */
+/* header .menu {
+} */
+header .menu > ul {
+  display: flex;
+}
+header .menu > ul > li {
+  padding: 0 44px;
+}
+header .button {
+  display: flex;
+  justify-content: space-between;
+}
+header .button .login_button,
+header .button .signup_button {
+  width: 125px;
+  height: 45px;
+}
+header .button .login_button {
+  background-color: var(--blue-sub-color);
+  color: var(--white-color);
+}
+header .button .signup_button {
+  background-color: var(--white-color);
+  color: var(--blue-sub-color);
+}
