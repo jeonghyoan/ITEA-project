@@ -1,4 +1,4 @@
-@import url(/static/root.css);
+@import url(/static/css/root.css);
 
 header {
   display: flex;
@@ -8,6 +8,7 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: initial;
   padding: 0 70px;
   background-color: var(--blue-sub-color);
 }

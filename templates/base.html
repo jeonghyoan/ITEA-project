@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-<!-- {% include 'head.html' %} -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>청설모</title>
-    <script src="../static/includeHTML.js"></script>
-    <link rel="stylesheet" href="/static/includeCSS.css">
+    <script src="/static/js/includeHTML.js"></script>
+    <link rel="stylesheet" href="/static/css/includeCSS.css">
 </head>
 
 <body>
     <!-- {% include 'header.html' %} -->
     <header include-html="header.html"></header>
+
+    <!-- {% block content %}
+    {% endblock %} -->
+
     <!-- <hr> -->
-    <!--
-    {% block content %}
+
+    <!-- {% include 'home.html' %} -->
+    <!-- <section include-html="home.html"></section> -->
+    <!-- {% block content %}
     {% endblock %} -->
 
     <!-- <hr> -->

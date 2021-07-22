@@ -24,3 +24,10 @@ table td {
     "Arial", sans-serif;
   transform: skew(-0.03deg);
 }
+@font-face {
+  font-family: "netmarbleM";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.1/netmarbleM.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
