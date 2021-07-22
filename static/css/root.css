@@ -9,6 +9,9 @@
   --gray-light-color: #b7b7b7;
   /* Size */
 
+  /* Font */
+  --netmarble: "netmarbleM";
+
   /* Font Size */
   --font-large: 80px;
   --font-medium: 40px;
