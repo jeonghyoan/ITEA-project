@@ -7,8 +7,8 @@ This project was initiated to address the challenges of obtaining survey data du
 
 ## Interface Overview
 1. Main Page  
-   <img src="https://github.com/user-attachments/assets/315ca139-c4ec-4c41-9006-988ff970c7d7" height="600" style="margin-right: 10px;" /> 
-   <img src="https://github.com/user-attachments/assets/39cb0db5-fb5a-4079-9e21-54e8b31f59b3" height="600" />
+   <img src="https://github.com/user-attachments/assets/315ca139-c4ec-4c41-9006-988ff970c7d7" height="400" style="margin-right: 10px;" /> 
+   <img src="https://github.com/user-attachments/assets/39cb0db5-fb5a-4079-9e21-54e8b31f59b3" height="400" />
 
 2. My Page  
    <img src="https://github.com/user-attachments/assets/d898455f-f0bf-46cd-80bd-b2af3f0687a7" width="400" />
